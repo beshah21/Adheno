@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Achievements</title>
+    <style type="text/css">
+        < !-- body {
+            font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+            background: #42413C;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            background-color: #690;
+        }
+
+        /* ~~ Element-/Tag-Selektoren ~~ */
+
+        ul,
+        ol,
+        dl {
+            /* Aufgrund von Abweichungen zwischen verschiedenen Browsern empfiehlt es sich, die Auffüllung und den Rand in Listen auf 0 einzustellen. Zu Konsistenzzwecken können Sie die gewünschten Werte entweder hier oder in den enthaltenen Listenelementen (LI, DT, DD) eingeben. Beachten Sie, dass die hier eingegebenen Werte hierarchisch auf die .nav-Liste angewendet werden, sofern Sie keinen spezifischeren Selektor festlegen. */
+            padding: 0;
+            margin: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin-top: 0;
+            /* Durch Verschieben des oberen Rands wird das Problem behoben, dass Ränder aus dem zugehörigen div-Tag geraten können. Der übrig gebliebene untere Rand hält ihn getrennt von allen folgenden Elementen. */
+            padding-right: 15px;
+            padding-left: 15px;
+            /* Durch Hinzufügen der Auffüllung zu den Seiten der Elemente innerhalb der div-Tags anstelle der div-Tags selbst entfallen jegliche Box-Modell-Berechnungen. Alternativ kann auch ein verschachteltes div-Tag mit seitlicher Auffüllung verwendet werden. */
+        }
+
+        h2 {
+            font-size: 35px;
+            color: #000;
+        }
+
+        h3 {
+            font-size: 25px;
+            color: #000;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: #000;
+        }
+
+        a img {
+            /* Dieser Selektor entfernt den standardmäßigen blauen Rahmen, der in einigen Browsern um ein Bild angezeigt wird, wenn es von einem Hyperlink umschlossen ist. */
+            border: none;
+        }
+
+        /* ~~ Die Reihenfolge der Stildefinitionen für die Hyperlinks der Site, einschließlich der Gruppe der Selektoren zum Erzeugen des Hover-Effekts, muss erhalten bleiben. ~~ */
+
+        a:link {
+            color: #42413C;
+            text-decoration: underline;
+            /* Sofern Ihre Hyperlinks nicht besonders hervorgehoben werden sollen, empfiehlt es sich, zur schnellen visuellen Erkennung Unterstreichungen zu verwenden. */
+        }
+
+        a:visited {
+            color: #6E6C64;
+            text-decoration: underline;
+        }
+
+        a:hover,
+        a:active,
+        a:focus {
+            /* Durch diese Gruppe von Selektoren wird bei Verwendung der Tastatur der gleiche Hover-Effekt wie beim Verwenden der Maus erzielt. */
+            text-decoration: none;
+        }
+
+        /* ~~ Dieser Container mit fester Breite umschließt die anderen div-Tags. ~~ */
+
+        .container {
+            width: 80%;
+            background: #FFF;
+            margin: 0 auto;
+            /* Der mit der Breite gekoppelte automatische Wert an den Seiten zentriert das Layout. */
+        }
+
+        /* ~~ Für die Kopfzeile wird keine Breite angegeben. Sie erstreckt sich über die gesamte Breite des Layouts. Sie enthält einen Bild-Platzhalter, der durch Ihr eigenes, mit Hyperlink versehenes Logo ersetzt werden sollte. ~~ */
+
+        .header {
+            background: #C6D580;
+        }
+
+        /* ~~ Dies sind die Layoutinformationen. ~~ 
+
+1) Eine Auffüllung wird nur oben und/oder unten im div-Tag positioniert. Die Elemente innerhalb dieses div-Tags verfügen über eine seitliche Auffüllung. Dadurch müssen Sie keine Box-Modell-Berechnungen durchführen. Zu beachten: Wenn Sie dem div-Tag eine seitliche Auffüllung oder einen Rahmen hinzufügen, werden diese zu der festgelegten Breite addiert und ergeben die *gesamte* Breite. Sie können auch die Auffüllung für das Element im div-Tag entfernen und ein zweites div-Tag ohne Breite und mit der gewünschten Auffüllung im ersten div-Tag einfügen.
+
+*/
+
+        .Einrueckung {
+            margin-left: 200px;
+        }
+
+        .content {
+            padding: 10px 0;
+        }
+
+        /* ~~ Fußzeile ~~ */
+
+        .footer {
+            padding: 10px 0;
+            background: #CCC49F;
+        }
+
+        /* ~~ Verschiedene float/clear-Klassen ~~ */
+
+        .fltrt {
+            /* Mit dieser Klasse können Sie ein Element auf der Seite nach rechts fließen lassen. Das fließende Element muss vor dem Element stehen, neben dem es auf der Seite erscheinen soll. */
+            float: right;
+            margin-left: 8px;
+        }
+
+        .fltlft {
+            /* Mit dieser Klasse können Sie ein Element auf der Seite nach links fließen lassen. Das fließende Element muss vor dem Element stehen, neben dem es auf der Seite erscheinen soll. */
+            float: left;
+            margin-right: 8px;
+        }
+
+        .clearfloat {
+            /* Diese Klasse kann in einem <br />-Tag oder leeren div-Tag als letztes Element nach dem letzten fließenden div-Tag (im #container) platziert werden, wenn #footer entfernt oder aus dem #container herausgenommen wird. */
+            clear: both;
+            height: 0;
+            font-size: 1px;
+            line-height: 0px;
+        }
+
+        .container .header h2 a strong {
+            color: #FFF;
+        }
+
+        img {
+            width: 80%;
+            max-width: -moz-max-content;
+        }
+
+        -->
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <p>
+            <h1 style="text-indent:40px;"><br /> ADHENO's Achievements 2017</h1>
+        </p>
+        <h2 style="text-indent:100px;">Project Location </h2>
+        <h3 style="text-indent:150px;">- Region: Amhara</h3>
+        <h4 style="text-indent:200px;">- Zone: North Shoa</h4>
+        <h4 style="text-indent:200px;">- Woreda: Basona Worana</h4>
+
+        <h3 style="text-indent:150px;">- Targeted Kebeles </h3>
+        <h4 style="text-indent:200px;">- Goshebado, Metkorya, Weynye, Moy </h4>
+        <h4 style="text-indent:200px;">- Amangult & Muti Cherkos </h4>
+        <h2 style="text-indent:100px;">Project Donors</h2>
+        <h3 style="text-indent:150px;">ALL WE CAN : (Sept.2016-Dec.2017)</h3>
+        <h3 style="text-indent:150px;">Dir-Biyabir: (May 2015- Dec., 2017 through extension &amp; another new project from May 2017 – Dec.2017)</h3>
+        <h3 style="text-indent:150px;">Prof. Turnowsky and Prof. Michael Krötlinger (Jan-Dec., 2017)</h3>
+        <h3 style="text-indent:150px;">Hiwote Memorial Fund</h3>
+        <h2 style="text-indent:100px;">Reporting Period</h2>
+        <h3 style="text-indent:150px;">July  to September , 2017</h3>
+        <h3 style="text-indent:150px;">Project Budget:  </h3>
+        <h4 class="Einrueckung">- Income: 955,482.40 (423,706.40 AWC, 419,500 School Construction &amp; 112,275 to fill Staff Salary gap)</h4>
+        <h4 style="text-indent:200px;">- Expenditure:964,787.70</h4>
+
+        <p>&nbsp;</p>
+        <h2 style="text-indent:100px;">Project Components</h2>
+        <h3 style="text-indent:150px;">1.Environmental Rehabilitation &amp; Sustainable Development </h3>
+        <h3 style="text-indent:150px;">2.Mitigating Social Crises</h3>
+        <h3 style="text-indent:150px;">3.Strengthening  ADHENO </h3>
+        <p>&nbsp;</p>
+        <h2 style="text-indent:100px;">Project Achievements</h2>
+        <h3 style="text-indent:150px;">1. Environmental Rehabilitation &amp; Sustainable Development</h3>
+        <table border="0" cellpadding="0" cellspacing="10" width="80%" align="center">
+            <tr>
+                <td><strong>Activity</strong></td>
+                <td><strong>Plan</strong></td>
+                <td><strong>Achievement</strong></td>
+                <td><strong>Remarks</strong></td>
+            </tr>
+            <tr>
+                <td>Produce tree seedlings through supporting two central and five community tree nursery stations</td>
+                <td align="center">520,000</td>
+                <td align="center">700,000</td>
+                <td>Community stations could produce more than expectation </td>
+            </tr>
+            <tr>
+                <td>Strengthen area closures</td>
+                <td align="center">6</td>
+                <td align="center">8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td> Planted tree seedlings using Gudifecha and Com. mobilization strategy all are indigenous trees </td>
+                <td>900.000</td>
+                <td>1.400.000</td>
+                <td>- 90,000 Birr where payed (planted using tree Gudifecha strategy)</td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <h2 style="text-indent:100px;">Tree Planting ………</h2>
+        <table border="0" cellpadding="0" cellspacing="10" width="80%" align="center">
+            <tr>
+                <td align="center"><img src="/img/2017y1.jpg" /></td>
+                <td align="center"><img src="/img/2017y2.jpg" /></td>
+            </tr>
+            <tr>
+                <td align="center"><img src="/img/2017y3.jpg" /></td>
+                <td align="center"><img src="/img/2017y4.jpg" /></td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <table border="0" cellpadding="0" cellspacing="10" width="80%" align="center">
+            <tr>
+                <td><strong>Activity</strong></td>
+                <td><strong>Plan</strong></td>
+                <td><strong>Achievements</strong></td>
+                <td><strong>Remarks </strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <div>Provided training on fruit and vegetable management and Production</td>
+                <td>50 persons</td>
+                <td>51persons</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Distributed 250 orange, 250 Mango, 400 Lemon, 600 coffee 5kg Cabbage, 6kg beetroot, 6kg Carrot &amp; 6kg Onion</td>
+                <td>140 persons</td>
+                <td>156 persons</td>
+                <td>Additional 105 persons were selected considering their past achievements</td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <table border="0" cellpadding="0" cellspacing="10" width="80%" align="center">
+            <tr>
+                <td><strong>Activity</strong></td>
+                <td><strong>Plan</strong></td>
+                <td><strong>Achievements</strong></td>
+                <td><strong>Remarks </strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Installed High Density Poly-thene (HDP)</td>
+                <td align="center">2000 m</td>
+                <td align="center">2000 m</td>
+                <td>Weyeneye Kebele 500 m Debere & 1500 m Gof sub kebeles</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Promoted Tree Gudifecha Strategy</td>
+                <td align="center">2</td>
+                <td align="center">3</td>
+                <td width="226">using various community gatherings</td>
+            </tr>
+        </table>
+        <h4 class="Einrueckung">High Density Poly-thene (HDP)</h4>
+        <p align="center"><img src="/img/2017y5.jpg" /></p>
+        <p>&nbsp;</p>
+        <h4 class="Einrueckung">Debre Berhan Nursery Station</h4>
+        <p align="center"><img src="/img/2017y6.jpg" /></p>
+        <p>&nbsp;</p>
+        <h4 class="Einrueckung">Gudifecha Orientation</h4>
+        <p align="center"><img src="/img/2017y7.jpg" /></p>
+        <p align="center"><img src="/img/2017y8.jpg" /></p>
+        <p>&nbsp;</p>
+        <h4 class="Einrueckung">Community Tree Nursery Station at Moy Amangult</h4>
+        <p align="center"><img src="/img/2017y9.jpg" /></p>
+        <p align="center"><img src="/img/2017y10.jpg" /></p>
+        <p align="center"><img src="/img/2017y11.jpg" /></p>
+        <p>&nbsp;</p>
+        <h2 style="text-indent:100px;">2.  Mitigating Social Crises</h2>
+        <table border="0" cellpadding="0" cellspacing="10" width="80%" align="center">
+            <tr>
+                <td><strong>Activity</strong></td>
+                <td><strong>Plan</strong></td>
+                <td><strong>Achievements</strong></td>
+                <td><strong>Remarks </strong></td>
+            </tr>
+            <tr>
+                <td>School Girls Support Program (High School)</td>
+                <td align="center">72</td>
+                <td align="center">72</td>
+                <td>Coordinated summer vacation activities, provided orientation</td>
+            </tr>
+            <tr>
+                <td>Construction of new school</td>
+                <td align="center">1</td>
+                <td align="center">1</td>
+                <td>Construction completed</td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <h4 class="Einrueckung">New two class rooms </h4>
+        <p align="center"><img src="/img/2017y12.jpg" /></p>
+        <p align="center"><img src="/img/2017y13.jpg" /></p>
+        <p>&nbsp;</p>
+        <table border="0" cellpadding="0" cellspacing="10" width="80%" align="center">
+            <tr>
+                <td><strong>Activity</strong></td>
+                <td><strong>Plan</strong></td>
+                <td><strong>Achievements</strong></td>
+                <td><strong>Remarks </strong></td>
+            </tr>
+            <tr>
+                <td>Supported self help groups having 300 members in total</td>
+                <td align="center">15</td>
+                <td align="center">15</td>
+                <td>7 in Woynye ,2 in Moyamanguilt, 1 Muticherkos, 3 Goshebad &amp; 2 Metekoriya</td>
+            </tr>
+            <tr>
+                <td>Organize 6 Community Conversation sessions</td>
+                <td align="center">245persons</td>
+                <td align="center">253 persons</td>
+                <td></td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <h4 class="Einrueckung">Self Help Group</h4>
+        <p align="center"><img src="/img/2017y14.jpg" /></p>
+        <p>&nbsp;</p>
+        <h2 style="text-indent:100px;">3.  Strengthening  ADHENO</h2>
+        <h3 style="text-indent:150px;">Resource mobilization :</h3>
+        <h4 class="Einrueckung">Completed Masters project aiming at evaluating the impact of ADHENO’s intervention through integrated rural development approach for the past 12 years with Michigan University. </h4>
+        <h4 class="Einrueckung">Established Resource Mobilization Committee, and implemented various initiatives</h4>
+        <h4 class="Einrueckung">Signed MOU with  PRIDE  from Colorado and development of project proposal is underway for improving education at selected schools in Mojana Wodera Woreda </h4>
+        <h4 class="Einrueckung">Conducted discussion on possible partnership and resource mobilization activities with Hunger Project, GIZ and Prof. Turnowsky and Prof. Michael, ministry of environment and other individuals  </h4>
+        <p>&nbsp;</p>
+        <h2 style="text-indent:100px;">Other Activities </h2>
+        <h3 style="text-indent:150px;">Hosted  two representatives from the Methodist church.</h3>
+        <p align="center"><img src="/img/2017y15.jpg" /></p>
+        <p align="center"><img src="/img/2017y16.jpg" /></p>
+        <h3 style="text-indent:150px;">Midterm strategic review is underway by ATEM consultancy </h3>
+        <p>&nbsp;</p>
+
+        <!-- end .footer -->
+        <!-- end .container -->
+        </div>
+</body>
+
+</html>
