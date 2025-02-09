@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Adheno/static/css/main.e6c13ad2.css",
-    "main.js": "/Adheno/static/js/main.8455ab47.js",
+    "main.js": "/Adheno/static/js/main.d048ed0b.js",
     "static/js/488.881e303f.chunk.js": "/Adheno/static/js/488.881e303f.chunk.js",
     "index.html": "/Adheno/index.html",
     "main.e6c13ad2.css.map": "/Adheno/static/css/main.e6c13ad2.css.map",
-    "main.8455ab47.js.map": "/Adheno/static/js/main.8455ab47.js.map",
+    "main.d048ed0b.js.map": "/Adheno/static/js/main.d048ed0b.js.map",
     "488.881e303f.chunk.js.map": "/Adheno/static/js/488.881e303f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.8455ab47.js"
+    "static/js/main.d048ed0b.js"
   ]
 }
